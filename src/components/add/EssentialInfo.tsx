@@ -296,32 +296,7 @@ value={item}>{item}</MenuItem>
   </>
 
 
-<TextField
-              // error={Boolean(formik.touched.weight && formik.errors.weight)}
-              fullWidth
-              // helperText={formik.touched.weight && formik.errors.weight}
-              label="Product color "
-              margin="normal"
-              name="weight"
-              // onBlur={formik.handleBlur}
-              onChange={handleChange}
-              type="text"
-              value={init.weight.toLocaleLowerCase()}
-              variant="filled"
-            />
-            {/* <TextField
-              error={Boolean(formik.touched.isFeatured && formik.errors.isFeatured)}
-              fullWidth
-              helperText={formik.touched.isFeatured && formik.errors.isFeatured}
-              label="isFeatured"
-              margin="normal"
-              name="isFeatured"
-              onBlur={formik.handleBlur}
-              onChange={formik.handleChange}
-              type="text"
-              value={formik.values.isFeatured}
-              variant="filled"
-            /> */}
+ 
             <FormControlLabel
             // helperText={formik.touched.isFeatured && formik.errors.isFeatured}
             label="Show On Homepage?"
