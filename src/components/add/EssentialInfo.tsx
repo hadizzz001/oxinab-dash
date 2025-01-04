@@ -10,6 +10,7 @@ import { useRouter } from 'next/router';
 import UploadVideo from './UploadVideo';
 // import { Facebook as FacebookIcon } from '../icons/facebook';
 // import { Google as GoogleIcon } from '../icons/google';
+import { redirect } from "next/navigation";
 
   const Index = ({setDisabled}:{setDisabled:any}) => {
     const [imgs, setImgs] = useState([''])
@@ -93,6 +94,7 @@ import UploadVideo from './UploadVideo';
   }
 
 const resetForm = () => {
+  redirect("/");
   setInit({ title: '',
   price : '',
   weight: '',
