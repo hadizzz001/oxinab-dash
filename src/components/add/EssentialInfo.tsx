@@ -92,8 +92,7 @@ import UploadVideo from './UploadVideo';
     }
   }
 
-const resetForm = () => {
-  window.location.replace("/");
+const resetForm = () => { 
   setInit({ title: '',
   price : '',
   weight: '',
@@ -142,7 +141,7 @@ if (res?.success) {
     // setSubmitting(false)
  
 
-//     router.push('/products')
+    router.push('/products')
 
     return
 }
