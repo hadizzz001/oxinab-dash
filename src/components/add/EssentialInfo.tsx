@@ -22,7 +22,7 @@ import UploadVideo from './UploadVideo';
       description:'',
       isFeatured : false,
       videoUrl : '',
-      category : 'electronics',
+      category : 'Burnshield',
       // inStock: false,
       // Manufacturer
       // additionalInfo:'',
@@ -99,7 +99,7 @@ const resetForm = () => {
   description:'',
   isFeatured : false,
   videoUrl : '',
-  category : 'electronics'})
+  category : 'Burnshield'})
   setUrl('')
 }
 // console.log('init: ', init);
@@ -286,7 +286,7 @@ setDisabled(false)
     onChange={handleChange}
   >
     <MenuItem  value={'Burnshield'}>Burnshield</MenuItem>
-    {['Burnshield','E.M.S','Pharmacy','Laboratory' ,'Oxygene' ,'Boonfeet' ,'Orthopedics','Sterilisation','Dental'].map((item:string) =>{
+    {['E.M.S','Pharmacy','Laboratory' ,'Oxygene' ,'Boonfeet' ,'Orthopedics','Sterilisation','Dental'].map((item:string) =>{
 
 return    <MenuItem
 key={item}
