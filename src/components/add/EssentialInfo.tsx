@@ -282,14 +282,11 @@ setDisabled(false)
     value={init.category.toLocaleLowerCase()}
     label="Category"
     fullWidth
-    defaultValue={'electronics'}
+    defaultValue={'Burnshield'}
     onChange={handleChange}
   >
-    <MenuItem  value={'electronics'}>electronics</MenuItem>
-    {['kitchen appliances','home appliances','vaccum cleaners','tvs'
-       ,'heaters'
- ,      'fans'
-,       'tools'].map((item:string) =>{
+    <MenuItem  value={'Burnshield'}>Burnshield</MenuItem>
+    {['Burnshield','E.M.S','Pharmacy','Laboratory' ,'Oxygene' ,'Boonfeet' ,'Orthopedics','Sterilisation','Dental'].map((item:string) =>{
 
 return    <MenuItem
 key={item}
