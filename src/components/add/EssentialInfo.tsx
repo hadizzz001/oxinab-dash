@@ -286,7 +286,7 @@ setDisabled(false)
     onChange={handleChange}
   >
     <MenuItem  value={'Burnshield'}>Burnshield</MenuItem>
-    {['E.M.S','Pharmacy','Laboratory' ,'Oxygene' ,'Boonfeet' ,'Orthopedics','Sterilisation','Dental'].map((item:string) =>{
+    {['E.M.S','Pharmacy','Laboratory' ,'Oxygen' ,'Boonfeet' ,'Orthopedics','Sterilisation','Dental'].map((item:string) =>{
 
 return    <MenuItem
 key={item}
