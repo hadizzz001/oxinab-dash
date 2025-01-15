@@ -38,6 +38,11 @@ const items = [
     icon: (<ShoppingBagIcon fontSize="small" />),
     title: 'Products'
   },
+  {
+    href: '/posts',
+    icon: (<ShoppingBagIcon fontSize="small" />),
+    title: 'posts'
+  },
   // {
   //   href: '/settings',
   //   icon: (<CogIcon fontSize="small" />),
@@ -53,6 +58,11 @@ const items = [
     href: '/add',
     icon: (<LibraryAddIcon fontSize="small" />),
     title: 'Add Product'
+  },
+  {
+    href: '/add1',
+    icon: (<LibraryAddIcon fontSize="small" />),
+    title: 'Add Post'
   },
   // {
   //   href: '/404',
@@ -111,7 +121,7 @@ export const DashboardSidebar = (props) => {
           <Box sx={{px:'1em',pb:'1em'}}>
           
             <Typography fontSize='.8em'>
-            Powerhouse-lb Dashboard
+            Oxinab Dashboard
             </Typography>
           </Box>
 

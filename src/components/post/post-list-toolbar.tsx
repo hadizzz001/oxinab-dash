@@ -13,7 +13,7 @@ import { Search as SearchIcon } from '../../icons/search';
 import { Upload as UploadIcon } from '../../icons/upload';
 import { useRouter } from 'next/router';
 
-export const ProductListToolbar = ({q,handleChange}:any) => {
+export const PostListToolbar = ({q,handleChange}:any) => {
   const router = useRouter()
   return (
 
@@ -31,17 +31,16 @@ export const ProductListToolbar = ({q,handleChange}:any) => {
         sx={{ m: 1 }}
         variant="h4"
       >
-        Products
+        Posts
       </Typography>
       <Box sx={{ m: 1 }}>
-         
-       
+ 
         <Button
-  onClick={()=>router.push('/add')}
+  onClick={()=>router.push('/add1')}
 color="primary"
           variant="contained"
           >
-          Add products
+          Add Posts
         </Button>
       </Box>
     </Box>
@@ -68,7 +67,7 @@ color="primary"
                   </InputAdornment>
                 )
               }}
-              placeholder="Search product"
+              placeholder="Search Post"
               variant="outlined"
             />
           </Box>
