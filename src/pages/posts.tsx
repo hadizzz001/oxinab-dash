@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { Box, Container,Button, Grid, Pagination ,Typography} from '@mui/material';
 import { PostListToolbar } from '../components/post/post-list-toolbar';
-import { PostCard } from '../components/Post/Post-card';
+import { PostCard } from '../components/post/post-card';
 import { DashboardLayout } from '../components/dashboard-layout';
 import { useRouter } from 'next/router';
 import {useEffect,useState} from 'react'
