@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import { Box, Button, Container, Select, Link, TextField,
   Typography, Checkbox, FormControlLabel, InputLabel, MenuItem } from '@mui/material';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import AddImage from './AddImage';
+import Upload from '../Upload';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 // import { CustomSelect } from '../dashboard/CustomSelect';
@@ -325,7 +325,7 @@ value={item}>{item}</MenuItem>
               value={formik.values.password}
               variant="outlined"
             /> */}
-              <AddImage   HandleImagesChange={handleImgChange}/>
+              <Upload onImagesUpload={handleImgChange} />
               {mode === 'edit' && <Typography>Note: adding new images might replace the old ones</Typography>}
           </form>}
         {/* </Container> */}

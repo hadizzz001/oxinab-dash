@@ -68,6 +68,9 @@ const Page = () => {
       //don't proceed
     }
   }
+
+  console.log('data: ', data);
+  
   return (
 
   <>
